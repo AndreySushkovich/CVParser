@@ -5,51 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cd1bb02-40b4-4361-83a3-9c1d968dad69" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\cv1.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\cv2.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\cv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\cv4.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\cv5.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\cv6.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\cv7.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\cv1.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\cv2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\cv3.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\cv4.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\cv5.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\cv6.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\cv7.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\cv8.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\orig\cv1.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\orig\cv2.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\orig\cv3.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\orig\cv4.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\orig\cv5.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\orig\cv6.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\orig\cv7.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\orig\cv8.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\result\example.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\txt\cv1.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\txt\cv2.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\txt\cv3.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\txt\cv4.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\txt\cv5.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\txt\cv6.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\txt\cv7.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\examples\txt\cv8.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\PDFTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\text\DefaultTextStripper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\text\PDFTextStripper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\text\TextStripper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\templates\include\chartist\chartist.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\templates\include\chartist\chartist.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\templates\include\script.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\templates\include\theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\templates\report.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CVParser.iml" afterPath="$PROJECT_DIR$/CVParser.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CVParser.iws" />
@@ -76,7 +31,7 @@
     <file path="/CVParser.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479578599932" ignored="false" />
     <file path="/fragment.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479580389232" ignored="false" />
     <file path="/log4j.properties" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479581025578" ignored="false" />
-    <file path="/Dummy.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479584602758" ignored="false" />
+    <file path="/Dummy.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479585713871" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -648,6 +603,11 @@
       <created>1478428580996</created>
       <updated>1478428580996</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated conf, removed examples">
+      <created>1479585743496</created>
+      <updated>1479585743496</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -723,7 +683,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated conf, removed examples" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -737,6 +697,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Updated conf, removed examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

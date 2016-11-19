@@ -1,0 +1,5 @@
+*.txt
+examples/orig/*.*
+examples/result/*.*
+examples/txt/*.*
+target
