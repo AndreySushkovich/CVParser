@@ -1,0 +1,235 @@
+<html>
+<head>
+	<title>Example Report</title>
+	<script type="application/javascript" src="resources/chartist/chartist.js"></script>
+	<link rel="stylesheet" type="text/css" href="resources/chartist/chartist.css" />
+	<style type="text/css">
+		.ct-label {
+			font-size: 14px;
+			fill: #fff;
+		}
+		.ct-series-a .ct-slice-donut {
+			stroke: #f05b4f;
+		}
+		.ct-series-b .ct-slice-donut {
+			stroke: #a4bee8;
+		}
+		body {
+			padding: 10px;
+			font-family: Arial;
+		}
+		a {
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		.info-block {
+			border: 1px solid #ccc;
+			padding: 20px;
+			border-radius: 10px;
+			background-color: ivory;
+			margin-bottom: 20px;
+			overflow: hidden;
+			position: relative;
+		}
+		.chart-block {
+			border: 1px solid #ccc;
+			padding: 20px;
+			border-radius: 10px;
+			background-color: ivory;
+			margin-bottom: 20px;
+		}
+		.info-block > span,
+		.chart-block > span {
+			width: 100%;
+			display: inline-block;
+			padding: 10px;
+			font-weight: bold;
+			text-align: center;
+			
+			font-size: 24px;
+		}
+		#clientServer .body {
+			height: 50%;
+			overflow: hidden;
+		}
+		#clientServer .chart {
+			height: 200%;
+		}
+		.col-2 {
+			width: 100%;
+			oveflow: hidden;
+		}
+		.col-2 > div {
+			box-sizing: border-box;
+		}
+		.col-2 > div:first-child {
+			float: left;
+			width: 49%;
+		}
+		.col-2 > div:first-child + div {
+			float: right;
+			width: 49%;
+		}
+		.experience {
+			background-color: #ff7a7a;
+			width: 100px;
+			height: 100px;
+			line-height: 100px;
+			border-radius: 50px;
+			font-size: 80px;
+			text-align: center;
+			vertical-align: middle;
+			color: white;
+			font-style: italic;
+			position: absolute;
+			top: 70px;
+			left: 20px;
+		}
+		.info-block table {
+			margin-left: 150px;
+		}
+		.info-block table tr td {
+			vertical-align: top;
+		}
+		.info-block table tr td:first-child {
+			width: 100px;
+			font-weight: bold;
+		}
+		.info-block table tr td:not(:first-child) {
+			opacity: 0.7;
+		}
+	</style>
+</head>
+
+<body>
+
+<div class="info-block">
+	<span>Abigail O'Neil</span>
+	<div class="experience">4+</div>
+	<table>
+		<tbody>
+			<tr>
+				<td>Email</td>
+				<td><a href="mailto:warrior@gmail.com">warrior@gmail.com</a></td>
+			</tr>
+			<tr>
+				<td>Phone</td>
+				<td>+380 (99) 123-45-67</td>
+			</tr>
+			<tr>
+				<td>Skype</td>
+				<td>medieval.warrior</td>
+			</tr>
+			<tr>
+				<td>LinkedIn</td>
+				<td><a href="http://linkedin.com/my/profile" target="_blank">http://linkedin.com/my/profile</a></td>
+			</tr>
+			<tr>
+				<td>Education</td>
+				<td>Kiev National Economic University Vadym Hetman, Faculty of Finance and Economic, Finance and Credit correspondence department</td>
+			</tr>
+			<tr>
+				<td>Birthdate</td>
+				<td>May 15, 1991</td>
+			</tr>
+			<tr>
+				<td>English</td>
+				<td>Upper-Intermediate</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<div id="clientServer" class="chart-block">
+	<span>Client/Server</span>
+	<div class="body">
+		<div class="chart"></div>
+	</div>
+</div>
+
+<div id="career" class="chart-block">
+	<span>Career</span>
+	<div class="body">
+		<div class="chart"></div>
+	</div>
+</div>
+
+<div class="col-2">
+	<div id="frontend" class="chart-block">
+		<span>Frontend</span>
+		<div class="body">
+			<div class="chart"></div>
+		</div>
+	</div>
+
+	<div id="backend" class="chart-block">
+		<span>Backend</span>
+		<div class="body">
+			<div class="chart"></div>
+		</div>
+	</div>
+</div>
+
+<script type="application/javascript">
+
+new Chartist.Pie("#clientServer .chart", {
+	labels: ["Backend", "Frontend"],
+	series: [{
+		value: 70,
+		name: "Backend",
+		className: "ct-series-a clientServer--backend",
+		meta: "Meta 1"
+	}, {
+		value: 30,
+		name: "Frontend",
+		className: "ct-series-b clientServer--frontend",
+	}]
+	}, {
+		donut: true,
+		donutWidth: 60,
+		startAngle: 270,
+		total: 200,
+		showLabel: true,
+	}
+);
+
+new Chartist.Line('#career .chart', {
+	labels: ["2011", "2012", "2013", "2014", "2015", "2016"],
+	series: [
+		[1, 1, 2, 3, 4, 3],
+	]
+}, {
+	low: 0,
+	showArea: true,
+	chartPadding: {
+		right: 40
+	},
+	axisY: {
+		labelInterpolationFnc: function(value) {
+			switch (value) {
+				case 1: return "Intern/Junior";
+				case 2: return "Middle";
+				case 3: return "Senior";
+				case 4: return "Lead";
+				default: return "";
+			}
+		}
+    }
+});
+
+new Chartist.Pie('#frontend .chart', {
+	series: [5, 3, 4, 1, 5, 9],
+	labels: ["jQuery", "React", "CSS", "AngularJS", "Canvas", "HTML"],
+});
+
+new Chartist.Pie('#backend .chart', {
+	series: [2, 1, 2, 5, 9, 3],
+	labels: ["Java", "VCS", "Apache", "Servers", "DBs", "Linux"],
+});
+
+</script>
+
+</body>
+</html>

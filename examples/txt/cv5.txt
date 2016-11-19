@@ -1,0 +1,85 @@
+Oleksandr Lymanskyi 
+Software Engineer 
+Kyiv, Ukraine 
++380972327873 | ​limanskyi@gmail.com​  | Skype: idea222 | ​https://ua.linkedin.com/in/lymanskyioleksandr 
+ 
+7 years in software development. Interested in lightweight technologies, unix, best practices in 
+software development, team management, travelling. Team player, responsible, proactive. Was 
+a mentor in java and hybris commerce education programs in Epam Systems. 
+ 
+Responsibilities: software developing, support, load testing, software optimization, requirements 
+gathering, knowledge sharing, code review. 
+ 
+Industry experience: ecommerce, education, banking. 
+  
+Summary 
+● Intermediate English (B2) 
+● Java (core, JAXP, servlet\JSP\JSF, JAX-WS, EJB, JPA, JTA, validation, JMS) 
+● Spring (IoC, AOP, MVC, security), Hibernate, MyBatis, SQL-92, MySQL, Postgres, 
+MongoDB 
+● HTML, CSS, JavaScript, JQuery 
+● JUnit, Mockito, TDD, BDD (Fitnesse), Scrum, Kanban, Jira 
+● Ant, Maven, Jenkins, SVN, GIT, JBoss, Tomcat, Hybris Commerce, Solr search 
+ 
+  
+Education 
+National Technical University "Kharkiv Polytechnic Institute" 
+Bachelor of Software Engineering (2007 - 2011) 
+  
+Work Experience 
+ 
+Java (Hybris ecommerce) Developer: July 2015 - June 2016, Skywind, Kyiv 
+● Everything5Pounds b2c retail 
+Implement backend and frontend tasks, performance test and optimization, integrate with 
+thirdparty systems, refactor legacy code, add google analytics, review code. 
+Technologies: hybris 5.6 (impex, dao, hmc, processengine, yb2caccelerator, cms, media, 
+hotfolder, solr search), java 1.8, spring mvc, rest, jax-ws, junit, jquery, mysql, jmeter, bower 
+(js\css uglify). 
+ 
+Java (Hybris ecommerce) Developer: April 2013 - June 2015, EPAM 
+Systems, Kharkiv 
+ 
+● BlackBerry b2b site: 
+Integrate hybris with third party services by rest, soap. Implement backend and frontend tasks. 
+Technologies: hybris 5.1 (impex, dao, hmc, cscockpit, processengine, yb2baccelerator, 
+subscriptionsservices, cms, email templates), spring mvc, jms, rest, jax-rs, jax-ws, jax-rpc, junit, 
+java 1.7, jquery, mysql. 
+ 
+ 
+● Travis Perkins b2c sites: 
+PIM customization. Implement backend and frontend tasks. Pair TDD programming. 
+Technologies: hybris 5 (impex, dao, hmc, yb2caccelerator, cms), spring mvc, junit, java 1.7, 
+mongodb, mysql, fitnesse, jquery. 
+ 
+● Doosan parts b2b site: 
+Implement backend and frontend tasks, bugfixing. 
+Technologies: hybris 4.8 (impex, dao, hmc, cms), spring mvc, jms, apache camel, xslt, java 1.7, 
+jquery, mysql. 
+ 
+● Hybris training: 
+Learn hybris ecommerce platform, demo project customizations. Configure jenkins ci. 
+Technologies: hybris 4.8, spring mvc, jquery, mysql. 
+ 
+ 
+Java Developer: December 2011 - April 2013, Intetics Co., Kharkiv 
+ 
+● Pentaho report designer russian localization: 
+Fetching localization resources, debugging swing application, interacting with translators. 
+ 
+● Front end for a russian bank  accounts management system: 
+SOA project. Implement ui for soap services, xml\excell template processing, bug fixes. 
+Technologies: jsf (richfaces, facelets), cdi, soap, jaxp, jax-ws, poi, jquery, jboss 7, maven. 
+ 
+● Site for simplifying US accountant certification. Tracking courses, licenses, requirements. 
+Linking course providers and accountants: 
+Implement frontend and backend, testing, bug fixing.  
+Technologies: spring (beans, security, mvc, test), hibernate (jpa), sitemesh, jsp, velocity, jquery, 
+junit, tomcat, maven, mysql.  
+ 
+Java Developer: June 2009 – October 2011, ECWO organization, Kharkiv 
+● Solution for universities: accounting, entrance campaign, manage student's education, 
+employee's business processes, document circulation, schedule.  
+Software development, integration with goverment entrance campaign api, sotware update and 
+refactoring. 
+Technologies​ : java 1.4, java 1.6, swing, ejb 2, jdbc, xslt, apache fop, jsf 2 (richfaces), junit, ant, 
+maven, jboss 4, jboss 6.1, tomcat 7, oracle 9. 

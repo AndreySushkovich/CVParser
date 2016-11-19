@@ -1,0 +1,85 @@
+ 
+ 
+Nikolay Kozhukharenko 
+ 
+ +38 (066) 44 74 481   Kiev 
+ nikolay.kozhuharenko@gmail.com  santaclausua 
+ linkedin.com/in/nikolay-kozhukharenko 
+ mkozhukharenko.github.io  
+ blog 
+ 
+PERSONAL 
+STATEMENTS 
+Proactive and hardworking person with good front-end skills. Aimed to 
+take a challenging role as Front-end developer with a focus on 
+ReactJS. 
+ 
+Ready to take responsibility for a result. 
+EXPERTISE _______________________________________________________ 
+Technical Skills JavaScript, Angular 1x, React, Redux/Mobx, TypeScript, 
+Backbone/Marionette, HTML/CSS, Nodejs/KoaJS/Express, Bootstrap, 
+Git, Stylus, Mocha/Jest, Cordova, Webpack, Gulp. 
+ 
+I tend to write only ​reusable​ and ​maintainable​ code and styles. 
+Work-related 
+characteristics 
+Scrupulously vigilant about the details. 
+ 
+Good communication skills. I've worked in various types of team, and I 
+can easy find common ground with anyone. 
+ 
+I got solid management skills through my experience at the NGO. Able 
+to motivate and direct others, dealing with conflict in the team, 
+coordinates tasks, meets deadlines, sets goals. 
+Languages English – upper-intermediate. 
+EXPERIENCE​: _______________________________________________________ 
+May 2015– today FE developer - Krusche & Company  
+ Developing complex single-page web-application using ReactJs, 
+AngularJS 1x, NodeJS/Express/KoaJS, Backbone/Marionette.  
+May 2013 – Sep 14’ Project Management at Students' League UBA NGO 
+ - managing the team of people;  
+- organize big events, workshops, trainings; 
+- submitting activity reports & financial reports; 
+- holding the development trainings and mentoring members of NGO  
+Projects​: _______________________________________________________ 
+May 2015 – today RedBull  
+ Developing a website for a media content & application for configuring 
+a websites.Technologies: Marionette, ReactJS, SystemJs/JSPM, 
+ExpressJS, BackstopJs, Gulp. Stulys.  Node.js for pre-rendering and 
+as a proxy layer. 
+April 2016 – May 16’’ UMS admission system 
+ Working on the admission application tracking system (Enterprise 
+Resource Planning) for university. It’s designed to help the Ivan Franko 
+University of Lviv to handle an enrollment campaign.  ​Source code​.  
+Technologies: React, Redux, Webpack, React Router 3, Mocha, Chai 
+Nov '15 – May '16 Discounter   
+ Project management system for building stores. Developing Angular        
+application from scratch. Node.js used as a layer between FE and SAP            
+service.  
+May 2015 – Oct 15’ InTouch 
+ InTouch Architectural solution to manage Business Processes (HR, 
+procurement, real estate, collaborative workflows) with 2 mobile apps 
+for iOS and Android. Technologies: Backbone.js, Require.JS, Grunt, 
+Html, CSS, PhoneGap 
+Courses & Trainings​: _______________________________________________________ 
+October - Dec 2016 Node.JS course​ ​by javascript.ru 
+ Learning nodejs modules, generators, webapp architecture, MongoDB, 
+KoaJs framework, socket.io, authenication.  
+Jan 2016 React course​ ​by javascript.ru 
+ Learning ReactJS, Flux architecture and Redux 
+03 March – 01 May SoftServe IT Academy 
+ Learning AngularJS and developing an application using it. 
+https://github.com/ITsvetkoFF/Kv-007.LNU  
+Nov 14’ – Dec 14’ Maxymiser Academy Course  
+ Learning the fundamentals of JS, best coding practices, the 
+fundamentals of OOP. Works done during course can be found in 
+portfolio.  
+OTHER ______________________________________________________ 
+Conferences 
+ 
+Speaker at OdessaJS conference, 01-02 of July 2016 
+Topic: "Koajs as an alternative to Express" 
+Presentation on​ ​Slideshare​ (En) 
+Video on​ ​YouTube​ (Ru) 
+Hobbies photography, running, parliamentary debates 
+ 

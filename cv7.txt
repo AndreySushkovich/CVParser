@@ -1,0 +1,116 @@
+ 
+ 
+ 
+   
+ 
+Name:              
+Position: 
+Contacts: 
+ 
+E-mail: 
+Skype: 
+Was born: 
+Nationality:           
+Sergii Vitkalov 
+Senior Java Software Engineer 
+Kyiv, Ukraine 
+tel.: 0631549094 
+svitkalov@gmail.com 
+sergii.vitkalov 
+1990, Ukraine 
+Ukrainian 
+ 
+Summary 
+ 
+ 4+ years of commercial working experience 
+ Architecture and implementation of software products 
+ Strong  Java development skills 
+ A team player, strong communicational skills, experience of working in international 
+teams  
+ 
+Technical Skills: 
+J2EE (EJB, JMS, REST) 
+JPA, ORM, Spring  
+XML, XML data-binding 
+Freemarker, Velocity 
+GWT/SmartGWT 
+BPM systems (Camunda, jBPM) 
+Eclipse RCP, Swing 
+Build automation: Ant, Ivy, Maven 
+Continuous integration: Hudson/Jenkins 
+Server side: WebLogic, JBoss 
+Testing tools: JUnit, Mockito, PowerMockito 
+Version control: git, accurev  
+ 
+Work Experience  
+  
+Name of Employer  :  Global Logic 
+Dates of Employment : October 2013 – Present moment 
+Job Title   :  Senior Java Software Engineer 
+ 
+ 
+Project Name: Ericsson Adaptive Inventory - OSS/BSS 
+Project Description: Ericsson Adaptive Inventory (known as Granite) is a system for planning, designing 
+and documenting complex communication services and networks. The system serves as the database of 
+record across all operational layers and technologies, and couples it with a real-time data visualization 
+and provisioning automation. 
+Duration: March 2014 – present moment 
+Responsibilities: 
+ Implementation business and functional requirements 
+ Bug fixing  
+ Interaction with the customer and QA team  
+ Code review 
+ 
+ 
+ 
+ 
+Project Name: Ericsson BPM 
+Project Description: Wireless and wire line Inventory System that stores and customizes all the physical 
+and logical resources and manages its networks and services. It is designed to enable intelligent 
+automation of network design and assign processes, as well as support provisioning tasks. It supports all 
+data and voice technologies, and serves the needs of a vast variety of Communications Service Provider. 
+Duration: October 2013 - March 2014  
+Responsibilities:  
+ Implementation business and functional requirements 
+ Bug fixing  
+ Interaction with the customer and QA team  
+ Code review 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Name of Employer  :  Samsung Research and Development Center 
+Dates of Employment : December 2011 – September 2013 
+Job Title   :  Java Software Engineer 
+ 
+Project description: Development of IDE for Smart TV 
+Responsibilities: 
+ Analysis of technical requirement for the system 
+ Implementation of a new functionality 
+ Project implementation from the scratch 
+ Maintenance and troubleshooting of the system 
+ DB  design, administration and development  
+ Unit tests implementation 
+ 
+Academic Record   
+ 
+Name of institution: Taras Shevchenko National University of Kiev, Faculty of Cybernetics,  
+                              Software engineering full-time department  
+Dates of studying : September 2008 – June 2013 
+Qualification:                Software engineer (Specialist degree) (5.5 years)  
+_____________________________________________________________________________________ 
+   
+Name of institution: Kiev National Economic University Vadym Hetman, Faculty of Finance and  
+                                           Economic, Finance and Credit correspondence department 
+Dates of studying : September 2007 – June 2011 
+Qualification:                Bachelor of Finance  (4.5 years)  
+ 
+ 
+Foreign Languages Skills 
+ 
+Language Written Spoken 
+English Upper-intermediate Intermediate 
+ 
