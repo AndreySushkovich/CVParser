@@ -1,4 +1,4 @@
-package org.ansu.cvparser.parser.entries;
+package org.ansu.cvparser.finder.entries;
 
 /**
  * Simple {@link Entry} implementation with {@code canonical} equal to {@code original}

@@ -1,4 +1,4 @@
-package org.ansu.cvparser.parser.entries;
+package org.ansu.cvparser.finder.entries;
 
 /**
  * Author: Andrii Sushkovych

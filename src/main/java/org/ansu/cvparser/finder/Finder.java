@@ -1,6 +1,6 @@
-package org.ansu.cvparser.parser;
+package org.ansu.cvparser.finder;
 
-import org.ansu.cvparser.parser.entries.Entry;
+import org.ansu.cvparser.finder.entries.Entry;
 
 /**
  * TODO It's not obvious that it only finds FIRST OCCURRENCE

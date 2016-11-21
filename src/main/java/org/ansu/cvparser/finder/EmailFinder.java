@@ -1,4 +1,4 @@
-package org.ansu.cvparser.parser;
+package org.ansu.cvparser.finder;
 
 import java.util.regex.Pattern;
 

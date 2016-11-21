@@ -1,7 +1,7 @@
-package org.ansu.cvparser.parser;
+package org.ansu.cvparser.finder;
 
 import org.ansu.cvparser.KeywordGroup;
-import org.ansu.cvparser.parser.entries.Entry;
+import org.ansu.cvparser.finder.entries.Entry;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

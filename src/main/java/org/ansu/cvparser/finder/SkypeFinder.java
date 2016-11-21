@@ -1,7 +1,7 @@
-package org.ansu.cvparser.parser;
+package org.ansu.cvparser.finder;
 
-import org.ansu.cvparser.parser.entries.SimpleEntry;
-import org.ansu.cvparser.parser.entries.Entry;
+import org.ansu.cvparser.finder.entries.SimpleEntry;
+import org.ansu.cvparser.finder.entries.Entry;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
