@@ -70,13 +70,12 @@ public class KeywordGroup {
      * No exception thrown, please use it cautiously!
      */
     public static KeywordGroup readSafe(String... resourceNames) {
-        KeywordGroup group;
         try {
-            group = KeywordGroup.read(resourceNames);
+            return KeywordGroup.read(resourceNames);
         } catch (IOException e) {
-            group = new KeywordGroup();
+            logger.error("Cannot read one of the following resources: " + Arrays.toString(resourceNames));
+            return new KeywordGroup();
         }
-        return group;
     }
 
     public KeywordGroup() {
@@ -97,7 +96,7 @@ public class KeywordGroup {
         for (String word : this.keywords()) {
             if (word.equals(candidate)) {
                 // the word has already been added, return
-                logger.warn("Ignoring the duplicate of '" + word + "', not added");
+                logger.warn("Ignoring a duplicate of '" + word + "', not added");
                 return;
             }
         }

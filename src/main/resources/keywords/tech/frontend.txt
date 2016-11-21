@@ -1,0 +1,80 @@
+# Variable definitions (note that the variable is evaluated only after it's declared!)
+@set JS = (\.?(js|Js|JS))?
+
+# Languages
+(J(ava)?|E(CMA|cma)|Coffee?|Type)Script
+ES([56]|201[56])
+Babel
+ELM|[Ee]lm
+Haxe|HAXE
+Traceur
+[Aa]sm`JS`
+GWT
+ClojureScript
+Dart
+[Nn]ode
+
+# Frameworks & Tools
+[Jj][Qq]uery
+[Aa]ngular(`JS`|2(\.0)?)
+[Rr]eact`JS`
+[Vv]ue`JS`
+Require`JS`
+[Ee]mber`JS`
+[Bb]ackbone`JS`
+[Uu]nderscore`JS`
+[Dd]3`JS`
+[Bb]abylon`JS`
+[Mm]ocha
+[Cc]hai
+[Mm]eteor`JS`
+[Pp]hantom`JS`
+[Gg](runt|ulp)
+[Ww]ebpack
+[Kk]oa`JS`
+[Mm]arionette`JS`
+[Ss]ystem\.?(js|Js|JS)
+[Bb]ackstop`JS`
+[Kk]arma
+[Ff]lux
+[Rr]edux
+[Mm]ob[Xx]`JS`
+[Cc]ordova`JS`
+(JSPM|Jspm|jspm)(\.io)?
+[Ee]xt`JS`
+
+# HTML/CSS
+(CSS|css)3?
+H(TML|tml)[45]?
+[XD]HTML
+XML
+DOM
+S(ass|ASS)
+L(ess|ESS)
+PostCSS
+[Bb]ootstrap
+Stylus|Stulys
+[Ff]lexbox
+
+# Design
+Photoshop
+Illustrator
+[Gg]imp|GIMP
+#[Dd]esign  <-- Cannot actually use it as it may refer to "DB design" or "design patterns"
+Acrobat
+Sketch
+
+# Misc
+[Ff]ront[-‒–—―]?[Ee]nd
+FE
+G?UI
+UX
+[Rr]esponsive
+[Aa]daptive
+[Cc]ross[-‒–—―][Bb]rowser
+[Aa]jax|AJAX
+CMS
+WordPress
+Joomla
+Drupal
+Magento

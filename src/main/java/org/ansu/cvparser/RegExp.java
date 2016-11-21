@@ -14,9 +14,19 @@ public class RegExp {
         public static String OneOrTwoDigits = "\\d{1,2}";
         public static String TwoToFourDigits = "\\d{1,2}";
         public static String Hyphen = "[-‒–—―]";
-        public static String SpaceOrDelim = "[\\s_\\W]";
-        public static String Space = "\\W";
+        public static String NonWordOrDelim = "[\\s_\\W]"; // TODO Any better name?
+        public static String NonWord = "\\W"; // TODO Any better name?
+        public static String Letter = "[а-яєiА-ЯЄI]";
+        public static String Word = "[а-яєiА-ЯЄIa-zA-Z]+";
+        public static String WordDelim = "\\b";
+        // TODO Try using \b (word boundary) instead of weird combinations for spaces/delimiters
+        // Case for delimiters: \u200BJavaScript\u200B (\u200B is ZERO WIDTH SPACE, &#8203;)
+        public static String SpaceOrDelim = "[\\s\\,\\.;\\\\/\\(\\)\\u200B]";
+        public static String Space = "[\\s\\u200B]"; // TODO Is \n really a "space"? Doubt that
+        public static String HSpace = "[^\\S\\x0a\\x0d\\r]";
+        public static String Spaces = Space + "+";
         public static String SingleQuote = "['’]";
+        public static String EOL = "\\n";
     }
 
     public static String wrap(String s) {
@@ -33,6 +43,11 @@ public class RegExp {
 
     public static String maybeMany(String s) {
         return s + "*?";
+    }
+
+    // un-capture all groups
+    public static String uncaptured(String re) {
+        return re.replaceAll("\\(", "(?:");
     }
 
     public static String or(String... args) {

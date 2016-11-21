@@ -1,7 +1,7 @@
 package org.ansu.cvparser.parser;
 
 import org.ansu.cvparser.KeywordGroup;
-import org.ansu.cvparser.parser.parts.Part;
+import org.ansu.cvparser.parser.entries.Entry;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +15,7 @@ import java.util.regex.Pattern;
  * Author: Andrii Sushkovych
  * Date: 11/21/16
  */
-public class NameFinder implements Parser {
+public class NameFinder implements Finder {
 
     public static final String NAME = "([А-ЯЄIA-Z](?:[а-яєiА-ЯЄIa-zA-Z]+|[А-ЯЄIA-Z]+))";
     public static final String FULL_NAME = "(?m)^\\s*" + NAME + "\\s+" + NAME + "\\s";
@@ -29,7 +29,7 @@ public class NameFinder implements Parser {
      * Author: Andrii Sushkovych
      * Date: 11/21/16
      */
-    public static class Name implements Part {
+    public static class Name implements Entry {
         private List<String> names; // [0] is the original
 
         private String original;
@@ -66,7 +66,7 @@ public class NameFinder implements Parser {
     }
 
     @Override
-    public Part find(String text) {
+    public Entry find(String text) {
         List<List<String>> nameCandidates = new ArrayList<>();
         Matcher matcher = PATTERN.matcher(text);
         while (matcher.find()) {

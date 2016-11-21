@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title th:text="${file}">Page Name</title>
+    <title th:text="${file}">page name</title>
     <link rel="stylesheet" href="include/theme.css">
 </head>
-<body th:utext="${content}">
-    Content
+<body>
+<pre th:utext="${content}">
+    content
+</pre>
 </body>
 </html>

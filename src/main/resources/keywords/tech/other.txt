@@ -1,0 +1,39 @@
+# Putting here everything that can't (for now) prove if we have FE or BE profile
+# Maybe we'll need these later, for some purpose?
+
+# Version Control Systems
+Git
+SVN
+Subversion
+Mercurial
+[Hh]g
+Perforce
+Concurrent Version Systems
+CVS
+
+# Networking, Protocols
+DNS
+HTTPS?
+FTP
+ISP
+LAN
+LDAP
+SMTP
+SSH
+SSL
+TCP/IP
+UDP
+
+# Encryption, Encoding
+PGP
+JCA
+[Bb]crypt
+RSA
+DES
+
+# Misc
+OOP?
+SOLID
+REST(ful)?
+Rest
+XSLT|xslt

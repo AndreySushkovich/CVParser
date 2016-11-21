@@ -1,5 +1,6 @@
-*.txt
+examples/**/*.txt
+examples/*.html
 examples/orig/*.*
 examples/result/*.*
 examples/txt/*.*
-target
+target/

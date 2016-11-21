@@ -1,12 +1,15 @@
 package org.ansu.cvparser.parser;
 
-import org.ansu.cvparser.parser.parts.Part;
+import org.ansu.cvparser.parser.entries.Entry;
 
 /**
+ * TODO It's not obvious that it only finds FIRST OCCURRENCE
+ * TODO Rather it should be configurable
+ *
  * Author: Andrii Sushkovych
  * Date: 11/21/16
  */
 public interface Finder {
     String getName();
-    Part find(String text);
+    Entry find(String text);
 }

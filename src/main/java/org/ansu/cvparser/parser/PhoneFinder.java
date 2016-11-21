@@ -23,7 +23,7 @@ import static org.ansu.cvparser.RegExp.wrap;
  * Author: Andrii Sushkovych
  * Date: 11/21/16
  */
-public class PhoneFinder extends SimpleParser {
+public class PhoneFinder extends SimpleFinder {
 
     public static final String COUNTRY_AND_CARRIER = "(\\+38\\s*)?(\\(0\\d{2}\\)|0\\d{2})\\s*-?\\s*";
 

@@ -20,12 +20,12 @@ import java.util.regex.Pattern;
  * Author: Andrii Sushkovych
  * Date: 11/21/16
  */
-public class GithubURLFinder extends SimpleFinder {
-    public static final String URL = "(?<=\\s)(https?://)?([a-zA-Z]+\\.)*linkedin.com/in/[\\w-]+";
+public class GitHubURLFinder extends SimpleFinder {
+    public static final String URL = "(?<=\\s)(https?://)?([a-zA-Z-\\d]+\\.)*github.(com|io)(/[\\w-]+)*";
 
     @Override
     public String getName() {
-        return "LinkedIn";
+        return "GitHub";
     }
 
     @Override

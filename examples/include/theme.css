@@ -4,3 +4,25 @@
 .title {
     background-color: cyan;
 }
+.info {
+    padding: 2px;
+    margin: 0 2px;
+    background: #b3ffb3;
+    border: 1px solid #4dff4d;
+    font-style: italic;
+}
+.tech--fe {
+    padding: 2px;
+    margin: 0 2px;
+    background: #ffb366;
+    border: 1px solid #ff8000;
+    font-style: italic;
+}
+.tech--be {
+    padding: 2px;
+    margin: 0 2px;
+    background: #1ab2ff;
+    border: 1px solid #0088cc;
+    font-style: italic;
+    color: white;
+}

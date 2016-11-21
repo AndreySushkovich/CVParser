@@ -1,13 +1,6 @@
 package org.ansu.cvparser.parser;
 
-import org.ansu.cvparser.parser.parts.Part;
-import org.ansu.cvparser.parser.parts.SimplePart;
-
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import static org.ansu.cvparser.RegExp.or;
-import static org.ansu.cvparser.RegExp.wrap;
 
 /**
  * International (Microsoft) format: Ukraine
@@ -27,7 +20,7 @@ import static org.ansu.cvparser.RegExp.wrap;
  * Author: Andrii Sushkovych
  * Date: 11/21/16
  */
-public class EmailFinder extends SimpleParser {
+public class EmailFinder extends SimpleFinder {
     public static final String EMAIL = "(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])";
 
     @Override
