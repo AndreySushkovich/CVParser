@@ -22,7 +22,7 @@ public class SkypeFinder implements Finder {
         return "Skype";
     }
 
-    // Do not replace with SimpleFinder's find() as the group number differs
+    // Do not replace with RegExpFinder's find() as the group number differs
     @Override
     public Entry find(String text) {
         Matcher matcher = PATTERN.matcher(text);
