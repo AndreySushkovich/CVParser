@@ -1,4 +1,4 @@
-package org.ansu.cvparser;
+package org.ansu.cvparser.util;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,7 +6,7 @@ package org.ansu.cvparser;
  * Date: 13.11.16
  * Time: 22:00
  */
-public class RegExp {
+public class RegExpUtils {
     public static String FLAG_GLOBAL = "(?i)";
     public static interface Lexemes {
         public static String MonthName = "(January|February|March|April|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)";
@@ -21,9 +21,11 @@ public class RegExp {
         public static String WordDelim = "\\b";
         // TODO Try using \b (word boundary) instead of weird combinations for spaces/delimiters
         // Case for delimiters: \u200BJavaScript\u200B (\u200B is ZERO WIDTH SPACE, &#8203;)
-        public static String SpaceOrDelim = "[\\s\\,\\.;\\\\/\\(\\)\\u200B]";
+        public static String SpaceOrDelim = "[\\s,\\.;\\\\/\\(\\)\\u200B]";
         public static String Space = "[\\s\\u200B]"; // TODO Is \n really a "space"? Doubt that
         public static String HSpace = "[^\\S\\x0a\\x0d\\r]";
+        public static String HSpaceOrDelim = "(?:" + HSpace + "|[\\W_])"; // TODO This is freaky slow (test on cv7)
+        public static String Delim = "[ \\xa0\\t\\n\\r\\f,\\.;:_\\\\\\/\\(\\)\\[\\]\\{\\}<>\\\u200B]";
         public static String Spaces = Space + "+";
         public static String SingleQuote = "['’]";
         public static String EOL = "\\n";
@@ -42,12 +44,20 @@ public class RegExp {
     }
 
     public static String maybeMany(String s) {
-        return s + "*?";
+        return s + "*";
     }
 
-    // un-capture all groups
-    public static String uncaptured(String re) {
-        return re.replaceAll("\\(", "(?:");
+    public static String uncaptureGroups(String re) {
+        return re.replaceAll("(?!\\?:)\\(", "(?:");
+    }
+
+    public static String wordify(String re) {
+        return "(" + Lexemes.SpaceOrDelim + "|^)" + wrap(re) + "(" + Lexemes.SpaceOrDelim + "|$)";
+    }
+
+    public static String linify(String re) {
+        String spaces = Lexemes.Delim + "*";
+        return "^" + spaces + wrap(re) + spaces + "$";
     }
 
     public static String or(String... args) {

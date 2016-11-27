@@ -1,0 +1,15 @@
+# One horizontal space
+@set S = [^\S\x0a\x0d\r]
+
+# None or some horizontal spaces
+@set Ss = [^\S\x0a\x0d\r]*
+
+# Word delimiter
+@set D = [^\S\x0a\x0d\r]*[,\.][^\S\x0a\x0d\r]*
+
+@word:projects
+@word:experience
+
+Experience
+Work`Ss`Experience
+Projects

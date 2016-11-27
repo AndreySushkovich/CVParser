@@ -1,25 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/CVParser.java" line="87" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="9cd1bb02-40b4-4361-83a3-9c1d968dad69" name="Default" comment="Updated conf, removed examples">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/GitHubURLFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LinkedInURLFinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/RegExpFinder.java" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\parser\GithubURLFinder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\parser\LinkedInUrlFinder.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\parser\EmailFinder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/EmailFinder.java" />
-      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\parser\Finder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/Finder.java" />
-      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\parser\LocationFinder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LocationFinder.java" />
-      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\parser\NameFinder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/NameFinder.java" />
-      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\parser\PhoneFinder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/PhoneFinder.java" />
-      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\parser\SkypeFinder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/SkypeFinder.java" />
-      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\parser\URLFinder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/URLFinder.java" />
-      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\parser\entries\Entry.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/entries/Entry.java" />
-      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\parser\entries\SimpleEntry.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/entries/SimpleEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/replacer/DefaultReplacer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/entries/MultipleEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/replacer/Replacer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/Rule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/RuleFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/RuleFactoryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/ansu/cvparser/rule/RuleTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/entries/SimpleMultipleEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/reports/include/chartist/chartist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/reports/include/chartist/chartist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/keywords/sections/courses.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/keywords/dates.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/keywords/sections/education.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/keywords/sections/experience.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/reports/include/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/reports/include/theme.css" />
+      <change type="DELETED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\KeywordGroup.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\java\org\ansu\cvparser\RegExp.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/util/RegExpUtils.java" />
+      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\resources\keywords\tech\backend.txt" afterPath="$PROJECT_DIR$/src/main/resources/keywords/technologies/backend.txt" />
+      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\resources\keywords\tech\frontend.txt" afterPath="$PROJECT_DIR$/src/main/resources/keywords/technologies/frontend.txt" />
+      <change type="MOVED" beforePath="C:\Dev\Workspace\CVParser\src\main\resources\keywords\tech\other.txt" afterPath="$PROJECT_DIR$/src/main/resources/keywords/technologies/other.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CVParser.iml" afterPath="$PROJECT_DIR$/CVParser.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/CVParser.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/CVParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/converter/DefaultTextConverter.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/converter/DefaultTextConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LinkedInURLFinder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LinkedInURLFinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LocationFinder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LocationFinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/NameFinder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/NameFinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/converter/PDFTextConverter.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/converter/PDFTextConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/PhoneFinder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/PhoneFinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/SkypeFinder.java" afterPath="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/SkypeFinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/report/report.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/report/report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/include/theme.css" afterPath="$PROJECT_DIR$/examples/include/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/debug/include/theme.css" afterPath="$PROJECT_DIR$/src/main/resources/templates/debug/include/theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CVParser.iws" />
@@ -28,9 +47,9 @@
     <file path="/PDFTest.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479574517548" ignored="false" />
     <file path="/RegExpBuilder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479075200448" ignored="false" />
     <file path="/RegExp.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479752696869" ignored="false" />
-    <file path="/report.html" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479565130237" ignored="false" />
+    <file path="/report.html" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479767913426" ignored="false" />
     <file path="/script.js" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479565964238" ignored="false" />
-    <file path="/theme.css" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479675029992" ignored="false" />
+    <file path="/theme.css" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480267918738" ignored="false" />
     <file path="/Section.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479567362766" ignored="false" />
     <file path="/TextStripper.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479567718953" ignored="false" />
     <file path="/PDFTextStripper.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479574270272" ignored="false" />
@@ -43,15 +62,15 @@
     <file path="/TemplateEngine.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479578956690" ignored="false" />
     <file path="/ThymeleafTemplateEngine.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479576341037" ignored="false" />
     <file path="/parsed.html" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479600195613" ignored="false" />
-    <file path="/CVParser.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479760370477" ignored="false" />
-    <file path="/fragment.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479757091017" ignored="false" />
+    <file path="/CVParser.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480266698567" ignored="false" />
+    <file path="/fragment.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480267062311" ignored="false" />
     <file path="/log4j.properties" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479581025578" ignored="false" />
-    <file path="/Dummy.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479760887010" ignored="false" />
-    <file path="/KeywordGroup.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479735682484" ignored="false" />
+    <file path="/Dummy.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480166305604" ignored="false" />
+    <file path="/KeywordGroup.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480180457580" ignored="false" />
     <file path="/backend.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479678693702" ignored="false" />
     <file path="/frontend.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479679075426" ignored="false" />
     <file path="/other.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479677439134" ignored="false" />
-    <file path="/a.dummy" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479732986272" ignored="false" />
+    <file path="/a.dummy" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480267720001" ignored="false" />
     <file path="/names.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479730867981" ignored="false" />
     <file path="/Name.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479732339590" ignored="false" />
     <file path="/Parser.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479740967716" ignored="false" />
@@ -64,14 +83,35 @@
     <file path="/SimpleParser.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479741398217" ignored="false" />
     <file path="/UrlParser.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479748215655" ignored="false" />
     <file path="/LinkedInUrlFinder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479748477375" ignored="false" />
-    <file path="/LinkedInURLFinder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479748645753" ignored="false" />
+    <file path="/LinkedInURLFinder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480261803258" ignored="false" />
     <file path="/Finder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479749490633" ignored="false" />
     <file path="/GithubURLFinder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479749652416" ignored="false" />
     <file path="/GitHubURLFinder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479750239496" ignored="false" />
     <file path="/SkypeFinder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479752793539" ignored="false" />
     <file path="/cities.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479759480420" ignored="false" />
-    <file path="/LocationFinder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479760815558" ignored="false" />
+    <file path="/LocationFinder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480197835292" ignored="false" />
     <file path="/SimpleFinder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479761861077" ignored="false" />
+    <file path="/courses.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479895456659" ignored="false" />
+    <file path="/MultipleEntry.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479825059380" ignored="false" />
+    <file path="/SimpleMultipleEntry.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479824516699" ignored="false" />
+    <file path="/RegExpUtils.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479911471577" ignored="false" />
+    <file path="/KeywordGroupTest.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480198295985" ignored="false" />
+    <file path="/Tokenizer.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479900018687" ignored="false" />
+    <file path="/AbstractTokenizer.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479900714745" ignored="false" />
+    <file path="/ImmediateTokenizer.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1479900215317" ignored="false" />
+    <file path="/experience.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480169664662" ignored="false" />
+    <file path="/education.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480171694316" ignored="false" />
+    <file path="/dates.txt" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480256302140" ignored="false" />
+    <file path="/KeywordGroupFactory.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480180900502" ignored="false" />
+    <file path="/PatternGroupFactory.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480180660802" ignored="false" />
+    <file path="/LinePatternGroupFactory.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480180716016" ignored="false" />
+    <file path="/LineRuleFactory.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480191456433" ignored="false" />
+    <file path="/AbstractRuleFactory.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480194152055" ignored="false" />
+    <file path="/RuleFactory.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480263471323" ignored="false" />
+    <file path="/Rule.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480267464817" ignored="false" />
+    <file path="/DefaultReplacer.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480265899465" ignored="false" />
+    <file path="/NameFinder.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480197784715" ignored="false" />
+    <file path="/RuleFactoryImpl.java" changelist="9cd1bb02-40b4-4361-83a3-9c1d968dad69" time="1480253361919" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +127,102 @@
   </component>
   <component name="DebuggerManager">
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/URLFinder.java" line="18" class="org.ansu.cvparser.finder.URLFinder" package="org.ansu.cvparser.finder">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/org/ansu/cvparser/rule/RuleTest.java" line="44" class="org.ansu.cvparser.rule.KeywordGroupTest" package="org.ansu.cvparser.rule">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/Rule.java" line="125" class="org.ansu.cvparser.rule.Rule" package="org.ansu.cvparser.rule">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/Rule.java" line="129" class="org.ansu.cvparser.rule.Rule" package="org.ansu.cvparser.rule">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/Rule.java" line="128" class="org.ansu.cvparser.rule.Rule" package="org.ansu.cvparser.rule">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="pattern.pattern.contains(&quot;[Nn]ode&quot;)&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </line_breakpoints>
+    <exception_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint class_name="java.lang.NullPointerException" package_name="java.lang">
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </exception_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -123,57 +259,6 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/NameFinder.java" line="106" class="org.ansu.cvparser.parser.NameFinder" package="org.ansu.cvparser.parser">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/URLFinder.java" line="18" class="org.ansu.cvparser.finder.URLFinder" package="org.ansu.cvparser.finder">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <exception_breakpoints>
-      <breakpoint class_name="java.lang.NullPointerException" package_name="java.lang">
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </exception_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -186,7 +271,43 @@
       <file leaf-file-name="CVParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/CVParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.0">
+            <state line="135" column="53" selection-start="5518" selection-end="5518" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backend.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/keywords/technologies/backend.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frontend.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/keywords/technologies/frontend.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="26" selection-start="113" selection-end="113" vertical-scroll-proportion="0.041984733">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegExpUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/util/RegExpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="48" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rule.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/Rule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="127" column="28" selection-start="4344" selection-end="4344" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,28 +315,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Entry.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/entries/Entry.java">
+      <file leaf-file-name="theme.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/debug/include/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="11" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+            <state line="5" column="21" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleEntry.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/entries/SimpleEntry.java">
+      <file leaf-file-name="theme.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/include/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
+            <state line="5" column="4" selection-start="79" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocationFinder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LocationFinder.java">
+      <file leaf-file-name="DefaultReplacer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/replacer/DefaultReplacer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="45" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.0">
+            <state line="45" column="9" selection-start="1022" selection-end="1351" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -223,62 +344,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegExpFinder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/RegExpFinder.java">
+      <file leaf-file-name="RuleFactoryImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/RuleFactoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="28" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+            <state line="69" column="0" selection-start="2315" selection-end="2315" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoneFinder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/PhoneFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="13" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SkypeFinder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/SkypeFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="59" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="URLFinder.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/URLFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.20229007">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GitHubURLFinder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/GitHubURLFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedInURLFinder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LinkedInURLFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -301,22 +373,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/parser/LinkedInUrlFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/parser/LinkedInURLFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/parser/Finder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/parser/GithubURLFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/parser/GitHubURLFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/RegExp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/parser/SkypeFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/keywords/locations/en_ua/cities.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/parser/NameFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/parser/LocationFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/CVParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/SimpleFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/RegExpFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/GitHubURLFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/replacer/Replacer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/NameFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LocationFinder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/ansu/cvparser/KeywordGroupTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/ansu/cvparser/rule/KeywordGroupTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/RuleFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/keywords/dates.txt" />
         <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LinkedInURLFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/URLFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/RuleFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/keywords/technologies/frontend.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/replacer/DefaultReplacer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/CVParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/util/RegExpUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/Rule.java" />
+        <option value="$PROJECT_DIR$/examples/include/theme.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/debug/include/theme.css" />
       </list>
     </option>
   </component>
@@ -356,7 +428,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -378,6 +450,120 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="CVParser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="function" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -401,6 +587,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rule" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -449,6 +647,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -568,7 +770,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="en_ua" />
+              <option name="myItemId" value="technologies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keywords" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -595,6 +827,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cvparser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cvparser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cvparser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="replacer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -625,70 +917,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="finder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CVParser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CVParser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cvparser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="finder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CVParser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CVParser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cvparser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exception" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -703,6 +931,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reports" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -755,12 +1001,15 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.ansu.cvparser.parser" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.ansu.cvparser.rule" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dev\Workspace\CVParser\src\main\resources\sections" />
       <recent name="C:\Dev\Workspace\CVParser\src\main\resources\keywords\tech" />
       <recent name="C:\Dev\Workspace\CVParser\src\main\resources\keywords\names" />
       <recent name="C:\Dev\Workspace\CVParser\src\main\resources" />
       <recent name="C:\Dev\Workspace\CVParser\src\main\templates" />
-      <recent name="C:\Dev\Workspace\CVParser\src\main\templates\report" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CVParser">
@@ -782,6 +1031,68 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="CVParser" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RuleTest.test" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.ansu.cvparser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CVParser" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.ansu.cvparser.rule" />
+      <option name="MAIN_CLASS_NAME" value="org.ansu.cvparser.rule.RuleTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RuleTest.testGroupLines" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.ansu.cvparser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CVParser" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.ansu.cvparser.rule" />
+      <option name="MAIN_CLASS_NAME" value="org.ansu.cvparser.rule.RuleTest" />
+      <option name="METHOD_NAME" value="testGroupLines" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
@@ -862,6 +1173,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -883,12 +1201,16 @@
       <patterns />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.CVParser" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RuleTest.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RuleTest.testGroupLines" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Application.CVParser" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RuleTest.testGroupLines" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RuleTest.test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -897,6 +1219,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -931,31 +1258,31 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.609215" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38737202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7986348" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.0" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.3088737" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2621212" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.85324234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6109215" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2621212" sideWeight="0.67064846" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7986348" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6109215" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1028,126 +1355,124 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/KeywordGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="23" selection-start="3742" selection-end="3742" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/EmailFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/Finder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/RegExp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="29" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/keywords/locations/en_ua/cities.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/NameFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="11" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/entries/Entry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/entries/SimpleEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LocationFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="45" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/CVParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/RegExpFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/PhoneFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/GitHubURLFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/LinkedInURLFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+        <state line="9" column="96" selection-start="215" selection-end="273" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/SkypeFinder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/RuleFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="59" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+        <state line="11" column="30" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2225" column="18" selection-start="86769" selection-end="86769" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/NameFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="0" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/finder/URLFinder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/RuleFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.20229007">
+        <state line="69" column="0" selection-start="2315" selection-end="2315" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/replacer/Replacer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="109" selection-end="109" vertical-scroll-proportion="0.23613596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/replacer/DefaultReplacer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="9" selection-start="1022" selection-end="1351" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/keywords/technologies/backend.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/util/RegExpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="48" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/rule/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="28" selection-start="4344" selection-end="4344" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/include/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="79" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/debug/include/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/ansu/cvparser/CVParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="53" selection-start="5518" selection-end="5518" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/ansu/cvparser/rule/RuleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="0.33206108">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/keywords/technologies/frontend.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="26" selection-start="113" selection-end="113" vertical-scroll-proportion="0.041984733">
           <folding />
         </state>
       </provider>

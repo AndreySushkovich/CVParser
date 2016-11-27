@@ -6,8 +6,8 @@ import org.ansu.cvparser.finder.entries.Entry;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static org.ansu.cvparser.RegExp.maybeMany;
-import static org.ansu.cvparser.RegExp.Lexemes.HSpace;
+import static org.ansu.cvparser.util.RegExpUtils.maybeMany;
+import static org.ansu.cvparser.util.RegExpUtils.Lexemes.HSpace;
 
 /**
  * Author: Andrii Sushkovych

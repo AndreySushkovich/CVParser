@@ -1,5 +1,5 @@
 examples/**/*.txt
-examples/*.html
+examples/reports/*.html
 examples/orig/*.*
 examples/result/*.*
 examples/txt/*.*

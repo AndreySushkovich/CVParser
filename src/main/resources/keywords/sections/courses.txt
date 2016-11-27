@@ -1,0 +1,36 @@
+# One horizontal space
+@set S  = [^\S\x0a\x0d\r]
+
+# None or some horizontal spaces
+@set Ss = [^\S\x0a\x0d\r]*
+
+# Word delimiter
+@set D  = [^\S\x0a\x0d\r]*[,\.][^\S\x0a\x0d\r]*
+
+# Word delimiter, incl. "and" (with spaces)
+@set AND  = [^\S\x0a\x0d\r]*([,\.&\+]|and)[^\S\x0a\x0d\r]*
+
+@word:course
+@word:training
+@word:certification
+
+# by 1
+Courses
+Trainings?
+Certifications?
+
+# by 2
+Courses`AND`Trainings?
+Courses`AND`Certifications?
+Trainings?`AND`Courses
+Trainings?`AND`Certifications?
+Certifications?`AND`Courses
+Certifications?`AND`Trainings?
+
+# by 3
+Courses`D`Trainings?`AND`Certifications?
+Courses`D`Certifications?`AND`Trainings?
+Trainings?`D`Courses`AND`Certifications?
+Trainings?`D`Certifications?`AND`Courses
+Certifications?`D`Courses`AND`Trainings?
+Certifications?`D`Trainings?`AND`Courses

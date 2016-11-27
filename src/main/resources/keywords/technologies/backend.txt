@@ -3,10 +3,10 @@
 [Pp]ython
 [Rr]uby
 PHP|php
-[Cc]++
-[Cc]
 [Ss]hell
+[Cc]++
 [Cc]#
+[Cc]
 [Oo]bjective-C
 Go
 [Pp]erl

@@ -2,8 +2,6 @@ package org.ansu.cvparser.converter;
 
 import org.ansu.cvparser.exception.ConversionException;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.io.*;
 

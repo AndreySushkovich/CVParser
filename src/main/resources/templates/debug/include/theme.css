@@ -2,6 +2,8 @@
     background-color: yellow;
 }
 .title {
+    display: block;
+    margin-top: 30px;
     background-color: cyan;
 }
 .tech--fe {

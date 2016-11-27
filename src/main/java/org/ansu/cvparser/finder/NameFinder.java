@@ -1,6 +1,6 @@
 package org.ansu.cvparser.finder;
 
-import org.ansu.cvparser.KeywordGroup;
+import org.ansu.cvparser.rule.Rule;
 import org.ansu.cvparser.finder.entries.Entry;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -9,7 +9,6 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Author: Andrii Sushkovych
@@ -20,10 +19,10 @@ public class NameFinder implements Finder {
     public static final String NAME = "([А-ЯЄIA-Z](?:[а-яєiА-ЯЄIa-zA-Z]+|[А-ЯЄIA-Z]+))";
     public static final String FULL_NAME = "(?m)^\\s*" + NAME + "\\s+" + NAME + "\\s";
 
-    private static final Pattern PATTERN = Pattern.compile(FULL_NAME);
+    private static final java.util.regex.Pattern PATTERN = java.util.regex.Pattern.compile(FULL_NAME);
     private static Logger logger = LoggerFactory.getLogger(NameFinder.class);
 
-    private final KeywordGroup keywordGroupNames; // initialized in constructor
+    private final Rule rule;
 
     /**
      * Author: Andrii Sushkovych
@@ -56,8 +55,8 @@ public class NameFinder implements Finder {
         }
     }
 
-    public NameFinder(String... resources) {
-        keywordGroupNames = KeywordGroup.readSafe(resources);
+    public NameFinder(Rule rule) {
+        this.rule = rule;
     }
 
     @Override
@@ -86,7 +85,7 @@ public class NameFinder implements Finder {
 
             for (int i = 1; i < namesCount; i++) {
                 String name = nameCandidate.get(i);
-                boolean found = matchesKeyword(name, keywordGroupNames);
+                boolean found = matchesKeyword(name, rule);
                 if (found) {
                     // We assume for now that only 2 names are present: Name and Surname
                     // Try and get the next name; if absent, the previous one
@@ -111,8 +110,8 @@ public class NameFinder implements Finder {
     }
 
     // TODO Create Keyword entity (instead of String), move this method there
-    private boolean matchesKeyword(String word, KeywordGroup group) {
-        for (String keyword : group.keywords()) {
+    private boolean matchesKeyword(String word, Rule group) {
+        for (String keyword : group.expressions()) {
             if (word.matches(keyword)) {
                 return true;
             }

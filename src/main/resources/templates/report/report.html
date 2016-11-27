@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>${cvName} - Report</title>
+    <title th:text="${cvName}">CV NAME</title>
     <script type="application/javascript" src="include/chartist/chartist.js"></script>
     <link rel="stylesheet" type="text/css" href="include/chartist/chartist.css" />
     <link rel="stylesheet" type="text/css" href="include/theme.css" />
@@ -10,25 +10,25 @@
 <body>
 
 <div class="info-block">
-    <span>Abigail O'Neil</span>
+    <span th:text="${Name}"></span>
     <div class="experience">4+</div>
     <table>
         <tbody>
         <tr>
             <td>Email</td>
-            <td><a href="mailto:warrior@gmail.com">warrior@gmail.com</a></td>
+            <td th:with="mailto='mailto:' + ${Email}"><a th:href="@{${mailto}}" th:text="${Email}">EMAIL</a></td>
         </tr>
         <tr>
             <td>Phone</td>
-            <td>+380 (99) 123-45-67</td>
+            <td th:text="${Phone}">PHONE NUMBER</td>
         </tr>
         <tr>
             <td>Skype</td>
-            <td>medieval.warrior</td>
+            <td th:text="${Skype}">SKYPE ID</td>
         </tr>
         <tr>
             <td>LinkedIn</td>
-            <td><a href="http://linkedin.com/my/profile" target="_blank">http://linkedin.com/my/profile</a></td>
+            <td><a th:href="@{${LinkedIn}}" target="_blank" th:text="${LinkedIn}">LINKEDIN PROFILE</a></td>
         </tr>
         <tr>
             <td>Education</td>

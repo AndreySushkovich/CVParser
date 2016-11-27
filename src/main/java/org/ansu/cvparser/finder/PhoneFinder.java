@@ -2,8 +2,8 @@ package org.ansu.cvparser.finder;
 
 import java.util.regex.Pattern;
 
-import static org.ansu.cvparser.RegExp.or;
-import static org.ansu.cvparser.RegExp.wrap;
+import static org.ansu.cvparser.util.RegExpUtils.or;
+import static org.ansu.cvparser.util.RegExpUtils.wrap;
 
 /**
  * International (Microsoft) format: Ukraine

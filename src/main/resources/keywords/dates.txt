@@ -1,0 +1,29 @@
+@set Space = [\s\xA0]
+@set Spaces = [\s\xA0]*
+@set Hyphen = [-‒–—―]
+@set Delimiter = [\s\xA0]*[,\.][\s\xA0]*
+@set And = [\s\xA0]*([,\.&\+]|and)[\s\xA0]*
+@set Month = (Jan(uary)?|Feb(ruary)?|Mar(ch)?|Apr(il)?|May|June?|July?|Aug(ust)?|Sep(tember)?|Oct(ober)?|Nov(ember)?|Dec(ember)?)
+@set Today = (\.\.\.?|today|present(\W+?(time|moment))?)
+@set ShortYear = ['’]?\d{2}['’]?
+@set FullYear = (19|20)\d{2}
+@set Year = ((19|20)\d{2}|['’]?\d{2}['’]?)
+@set To = [\s\xA0]*[-‒–—―][\s\xA0]*
+
+# pattern: M Y - ((M Y)|T)
+# ex: Jan 14 - May '15
+# ex: February 2015 - present time
+`Month``Spaces``Year``To`((`Month``Spaces``Year`)|`Today`)
+
+# pattern: M - M Y
+# ex: January - May 15'
+# ex: Apr - September 2013
+`Month``To``Month``Spaces``Year`
+
+# pattern: dd?/dd(dd)? - ((dd?/dd(dd)?)|T)
+# ex: 01/13 - 5/2014
+\d\d?/\d\d(\d\d)?`To`((\d\d?/\d\d(\d\d)?)|`Today`)
+
+# pattern: (19|20)dd - ((19|20)dd|dd|d|T))
+# ex: 2012 - 15
+`FullYear``To`(`Year`|\d{1,2}|`Today`)

@@ -1,6 +1,6 @@
 package org.ansu.cvparser.finder;
 
-import org.ansu.cvparser.KeywordGroup;
+import org.ansu.cvparser.rule.Rule;
 import org.ansu.cvparser.finder.entries.SimpleEntry;
 import org.ansu.cvparser.finder.entries.Entry;
 import org.slf4j.Logger;
@@ -9,9 +9,8 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import static org.ansu.cvparser.RegExp.Lexemes.HSpace;
+import static org.ansu.cvparser.util.RegExpUtils.Lexemes.HSpace;
 
 /**
  * TODO We should rather search the location in these 2 sections only:
@@ -26,10 +25,10 @@ public class LocationFinder implements Finder {
 
     public static final String LOCATION = "[A-Z][a-z]+((-|[" + HSpace + "]+)[A-Z][a-z]+)?";
 
-    private static final Pattern PATTERN = Pattern.compile(LOCATION);
+    private static final java.util.regex.Pattern PATTERN = java.util.regex.Pattern.compile(LOCATION);
     private static final Logger logger = LoggerFactory.getLogger(LocationFinder.class);
 
-    private final KeywordGroup locations; // initialized in constructor
+    private final Rule locations; // initialized in constructor
 
     /**
      * TODO Do not mix up cities and countries! First, look up a city,
@@ -38,8 +37,8 @@ public class LocationFinder implements Finder {
      * TODO As we return always the 1st finding, the result will be "Ukraine",
      * TODO and not "Kiev"
      */
-    public LocationFinder(String... resources) {
-        locations = KeywordGroup.readSafe(resources);
+    public LocationFinder(Rule rule) {
+        this.locations = rule;
     }
 
     @Override
@@ -56,7 +55,7 @@ public class LocationFinder implements Finder {
         }
 
         for (String candidate : candidates) {
-            for (String keyword : locations.keywords()) {
+            for (String keyword : locations.expressions()) {
                 if (candidate.matches(keyword)) {
                     return new SimpleEntry(candidate);
                 }
